@@ -4,3 +4,4 @@ README.txt
 Rakefile
 lib/indofaker.rb
 lib/indofaker/address.rb
+lib/indofaker/phone_number.rb

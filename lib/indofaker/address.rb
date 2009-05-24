@@ -14,12 +14,12 @@ module Faker
       end
 
       def city
-#        [
-#          '%s %s%s' % [city_prefix, Name.first_name, city_suffix],
-#          '%s %s' % [city_prefix, Name.first_name],
-#          '%s%s' % [Name.first_name, city_suffix],
-#          '%s%s' % [Name.last_name, city_suffix],
-#        ].rand
+        #        [
+        #          '%s %s%s' % [city_prefix, Name.first_name, city_suffix],
+        #          '%s %s' % [city_prefix, Name.first_name],
+        #          '%s%s' % [Name.first_name, city_suffix],
+        #          '%s%s' % [Name.last_name, city_suffix],
+        #        ].rand
         "Bandung"
       end
 
@@ -36,11 +36,16 @@ module Faker
 
       def street_address(include_secondary = false)
         Faker.numerify([
-          '##### %s' % street_name,
-          '#### %s' % street_name,
-          '### %s' % street_name
-        ].rand + (include_secondary ? ' ' + secondary_address : ''))
+            '##### %s' % street_name,
+            '#### %s' % street_name,
+            '### %s' % street_name
+          ].rand + (include_secondary ? ' ' + secondary_address : ''))
       end
+
+      def province
+       "Nanggroe Aceh Darussalam,Sumatera Utara,Sumatera Barat,Riau,Jambi,Sumatera Selatan,Bengkulu,Lampung,Kepulauan Bangka Belitung,Kepulauan Riau,DKI Jakarta,Jawa Barat,Jawa Tengah,Yogyakarta,Jawa Timur,Banten,Bali,Nusa Tenggara Barat,Nusa Tenggara Timur,Kalimantan Barat,Kalimantan Tengah,Kalimantan Selatan,Kalimantan Timur,Sulawesi Utara,Sulawesi Tengah,Sulawesi Selatan,Sulawesi Tenggara,Gorontalo,Sulawesi Barat,Maluku,Maluku Utara,Papua Barat,Papua".split(",").rand
+      end
+
     end
   end
 end
