@@ -5,6 +5,7 @@
 == DESCRIPTION:
 
 Indonesian Faker, cause "good" fakes are important here :).
+see http://faker.rubyforge.org/
 
 == FEATURES/PROBLEMS:
 
@@ -14,7 +15,7 @@ Indonesian Faker, cause "good" fakes are important here :).
 
 == SYNOPSIS:
 
-use <tt>require 'indofaker'</tt> instead if <tt>require 'faker'</tt>
+use <code>require 'indofaker'</code> instead of <code>require 'faker'</code>
 
   irb(main):001:0> require 'rubygems'
   => true
