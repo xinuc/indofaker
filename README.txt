@@ -40,7 +40,7 @@ use <code>require 'indofaker'</code> instead of <code>require 'faker'</code>
   irb(main):034:0> Faker::Address.zip_code
   => "68775"
   irb(main):039:0> Faker::Address.full_address
-  => "Jl Runduma No. 73T RT 67, RW 36 Kabupaten Jamblang 47870 Sumatera Utara"
+  => "Jl Runduma No. 73T RT 67, RW 36, Kabupaten Jamblang, 47870, Sumatera Utara"
   irb(main):041:0> Faker::Internet.email
   => "januar@oentung.or.id"
   irb(main):045:0> Faker::Internet.free_email
