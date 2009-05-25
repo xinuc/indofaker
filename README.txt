@@ -5,7 +5,10 @@
 == DESCRIPTION:
 
 Indonesian Faker, cause "good" fakes are important here :).
-see http://faker.rubyforge.org/
+see
+http://faker.rubyforge.org/
+http://www.rubyinside.com/faker-quick-fake-data-generation-in-ruby-665.html
+http://railscasts.com/episodes/126-populating-a-databasehttp://faker.rubyforge.org/
 
 == FEATURES/PROBLEMS:
 
