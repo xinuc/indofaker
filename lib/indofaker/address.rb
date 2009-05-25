@@ -67,7 +67,7 @@ module Faker
       end
 
       def full_address
-        [street_address(true), city, zip_code,province].join ' '
+        [street_address(true), city, zip_code,province].join ', '
       end
 
     end
