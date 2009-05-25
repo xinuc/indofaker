@@ -1,3 +1,5 @@
 nbproject
 pkg
 doc
+spec/*
+Manifest.txt

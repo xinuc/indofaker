@@ -4,6 +4,7 @@
 
 == DESCRIPTION:
 
+"Good" fakes are important in Indonesia.
 Cause Indonesians love 'good' fakes.
 
 == FEATURES/PROBLEMS:
