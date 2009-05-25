@@ -55,6 +55,13 @@ use <code>require 'indofaker'</code> instead of <code>require 'faker'</code>
 
 == INSTALL:
 
+install faker & hoe gem if you haven't
+
+  sudo gem install hoe
+  sudo gem install faker
+
+install xinuc-indofaker from github.com
+
   sudo gem install xinuc-indofaker --source=http://gems.github.com
 
 == LICENSE:
