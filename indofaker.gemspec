@@ -2,13 +2,16 @@
 
 Gem::Specification.new do |s|
   s.name = %q{indofaker}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nugroho Herucahyono"]
-  s.date = %q{2009-05-25}
+  s.date = %q{2009-05-26}
   s.description = %q{Indonesian Faker, cause "good" fakes are important here :).
-see http://faker.rubyforge.org/}
+see
+http://faker.rubyforge.org/
+http://www.rubyinside.com/faker-quick-fake-data-generation-in-ruby-665.html
+http://railscasts.com/episodes/126-populating-a-databasehttp://faker.rubyforge.org/}
   s.email = ["xinuc@xinuc.org"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
   s.files = ["History.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/indofaker.rb", "lib/indofaker/address.rb", "lib/indofaker/internet.rb", "lib/indofaker/name.rb", "lib/indofaker/phone_number.rb"]

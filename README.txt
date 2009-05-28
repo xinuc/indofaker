@@ -8,7 +8,7 @@ Indonesian Faker, cause "good" fakes are important here :).
 see
 http://faker.rubyforge.org/
 http://www.rubyinside.com/faker-quick-fake-data-generation-in-ruby-665.html
-http://railscasts.com/episodes/126-populating-a-databasehttp://faker.rubyforge.org/
+http://railscasts.com/episodes/126-populating-a-database
 
 == FEATURES/PROBLEMS:
 
@@ -25,29 +25,29 @@ use <code>require 'indofaker'</code> instead of <code>require 'faker'</code>
   irb(main):002:0> require 'indofaker'
   => true
   irb(main):003:0> Faker::Name.first_name
-  => "Riry"
-  irb(main):007:0> Faker::Name.last_name
-  => "Hanifah"
-  irb(main):012:0> Faker::Name.name
-  => "Hj. Rifal Sutaprawira S.H"
-  irb(main):023:0> Faker::Address.city
+  => "Ayu"
+  irb(main):004:0> Faker::Name.last_name
+  => "Dewantri"
+  irb(main):005:0> Faker::Name.name
+  => "H. Bejo Asmoro S.T"
+  irb(main):006:0> Faker::Address.city
   => "Cigandaria"
-  irb(main):029:0> Faker::Address.street_name
-  => "Jl. Apel Sari"
-  irb(main):031:0> Faker::Address.street_address
+  irb(main):007:0> Faker::Address.street_name
+  => "Jl. Terong Asri"
+  irb(main):008:0> Faker::Address.street_address
   => "Kelurahan Kesemek Permai No. 475"
-  irb(main):032:0> Faker::Address.street_address(true)
+  irb(main):009:0> Faker::Address.street_address(true)
   => "Jalan Cempedak No. 60 RT 67, RW 70"
-  irb(main):033:0> Faker::Address.province
-  => "Sulawesi Selatan"
-  irb(main):034:0> Faker::Address.zip_code
+  irb(main):010:0> Faker::Address.province
+  => "Jawa Tengah"
+  irb(main):011:0> Faker::Address.zip_code
   => "68775"
-  irb(main):039:0> Faker::Address.full_address
-  => "Jl Runduma No. 73T RT 67, RW 36, Kabupaten Jamblang, 47870, Sumatera Utara"
-  irb(main):041:0> Faker::Internet.email
-  => "januar@oentung.or.id"
+  irb(main):012:0> Faker::Address.full_address
+  => "Kompleks Nanas Asri No. 163 RT 45, RW 62, Wonokapulasan, 47031, Sulawesi Selatan"
+  irb(main):013:0> Faker::Internet.email
+  => "rita.widyanto@rahmadiani.co.id"
   irb(main):045:0> Faker::Internet.free_email
-  => "inardy.tanamas@yahoo.com"
+  => "yusup.suntoro@yahoo.co.id"
   irb(main):046:0> Faker::PhoneNumber.phone_number
   => "+62843614640402"
 
