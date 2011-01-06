@@ -2,3 +2,5 @@ nbproject
 pkg
 doc
 spec/*
+*.swp
+*.gem
